@@ -6,7 +6,7 @@ from PIL import Image
 import cv2
 
 # Load the saved model
-model = load_model('ANNpip_model.h5')
+model = load_model('ANN_model.h5')
 
 # Function to preprocess the image
 def preprocess_image(image):
